@@ -21,4 +21,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+/bin/
+/target/
+.DS_Store
+**/**/.DS_Store
+~$*
+
+.settings
+.settings/**
+
+/src/test/resources/gendata/**
+
+target/**
+
+generated
